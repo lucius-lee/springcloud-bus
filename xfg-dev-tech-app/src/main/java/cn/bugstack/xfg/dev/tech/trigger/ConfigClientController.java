@@ -12,8 +12,8 @@ public class ConfigClientController {
     @Value("${hello}")
     private String hello;
 
-    @RequestMapping("/hello")
-    public String hello() {
+    @RequestMapping("/hi")
+    public String hi() {
         return this.hello;
     }
 
