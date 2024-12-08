@@ -5,5 +5,5 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @PropertySource("classpath:system.properties")
-public class InitConfig {
+public class KafkaConfig {
 }
