@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>xfg-dev-tech-app</module>
-        <module>xfg-dev-tech-trigger</module>
         <module>config-bus</module>
         <module>config-bus/config-bus-registry</module>
         <module>config-bus/config-bus-server</module>
+        <module>config-bus/config-bus-kafka</module>
     </modules>
 
     <properties>

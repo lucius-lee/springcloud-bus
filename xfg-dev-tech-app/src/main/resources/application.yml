@@ -1,5 +1,7 @@
+# 端口
+server:
+  port: 9000
+
 spring:
-  config:
-    name: xfg-dev-tech
-  profiles:
-    active: dev
+  application:
+    name: config-bus-client-app
